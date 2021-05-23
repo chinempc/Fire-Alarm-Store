@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo</title>
+        <link rel="stylesheet" href="css/demo.css">
+    </head>
+    <body>
+            <body data-pingactiveinterval="30000" class="body">
+
+
+                    <div class="page page-challenge page-wider challenge-wa02">
+                    
+                    
+                        <div class="challenge">
+                    
+                          <div class="context-browser situation-warehouse">
+                    
+                    
+                            <div class="content">
+                              <div class="panel">
+                                <div class="name">AutoCaller's FireBox Mock1A <br> Dashboard</div>
+                    
+                                <div class="warehouses">
+                                  <div class="warehouse warehouse-top">
+                                    <div class="room room-top-01 room-locked">T01</div>
+                                    <div class="room room-top-02 room-unlocked">T02</div>
+                                    <div class="room room-top-03 room-unlocked">T03</div>
+                                    <div class="room room-top-04 room-locked">T04</div>
+                                    <div class="room room-top-05 room-locked">T05</div>
+                                    <div class="camera camera-top-01 camera-on"></div>
+                                    <div class="camera camera-top-02 camera-off"></div>
+                                  </div>
+                    
+                                  <div class="warehouse warehouse-bottom">
+                                    <div id= "cam" class="room room-bottom-01 room-locked">B01</div>
+                                    <div class="room room-bottom-02 room-unlocked">B02</div>
+                                    <div class="room room-bottom-03 room-locked">B03</div>
+                                    <div class="room room-bottom-04 room-unlocked">B04</div>
+                                    <div class="room room-bottom-05 room-unlocked">B05</div>
+                                    <div class="camera camera-bottom-01 camera-off"></div>
+                                    <div class="camera camera-bottom-02 camera-off"></div>
+                                  </div>
+                                </div>
+                              </div>
+                    
+                              <div class="controls">
+                                <div class="column">
+                                  <div class="title">Top Floor</div>
+                    
+                                  <div class="room room-top-01 room-locked">Room T01</div>
+                                  <div class="room room-top-02 room-unlocked">Room T02</div>
+                                  <div class="room room-top-03 room-unlocked">Room T03</div>
+                                  <div class="room room-top-04 room-locked">Room T04 (Elevator)</div>
+                                  <div class="room room-top-05 room-locked">Room T05</div>
+                                </div>
+                    
+                                <div class="column">
+                                  <div class="title">Bottom Floor</div>
+                    
+                                  <div class="room room-bottom-01 room-locked">Room B01</div>
+                                  <div class="room room-bottom-02 room-unlocked">Room B02</div>
+                                  <div class="room room-bottom-03 room-locked">Room B03</div>
+                                  <div class="room room-bottom-04 room-unlocked">Room B04 (Elevator)</div>
+                                  <div class="room room-bottom-05 room-unlocked">Room B05</div>
+                                </div>
+                    
+                                <div class="column">
+                                  <div class="title">Controls</div>
+                    
+                                  <a class="btn btn-small turn-cameras-on" onclick="toggleClass('sensor','-off','-on')">Turn sensor on</a>
+                                  <a class="btn btn-small turn-cameras-off" onclick="toggleClass('sensor','-on','-off')">Turn sensor off</a>
+                                  <a class="btn btn-small turn-alarms-on" onclick="toggleClass('room','-unlocked','-locked')">Turn alarms on</a>
+                                </div>
+                              </div>
+                    
+                              <div class="key">
+                                <div class="group group-rooms">
+                                  <div class="item item-room item-room-locked">Room - Locked and alarm on</div>
+                                  <div class="item item-room item-room-unlocked">Room - Unlocked and alarm off</div>
+                                </div>
+                    
+                                <div class="group group-cameras">
+                                  <div class="item item-camera item-camera-on">Sensor - No Fire Detected</div>
+                                  <div class="item item-camera item-camera-off">Sensor - Fire Detected</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+    </body>
+</html>
